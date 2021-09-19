@@ -97,7 +97,7 @@ nav.black > ul > li > a{
 section.sec1{
     width: 100%;
     height: 100vh;
-    background: url('https://github.com/abdoadel142/vooom/blob/main/images/background.png?raw=true');
+    background: url('../background.png');
     background-size: cover;
 }
 section.content{
