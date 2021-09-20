@@ -2,7 +2,11 @@
 @import url("../fonts/SourceSansPro-BlackItalic.ttf");  
 @import url("../fonts/SourceSansPro-Italic.ttf");  
 @import url("../fonts/SourceSansPro-Bold.ttf");  
-
+.con {
+  display: flex;
+  justify-content: space-between;
+  background-color: #262626;
+}
 
 .container {
   position: relative;
