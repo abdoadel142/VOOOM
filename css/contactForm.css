@@ -2,49 +2,11 @@
 @import url("../fonts/SourceSansPro-BlackItalic.ttf");  
 @import url("../fonts/SourceSansPro-Italic.ttf");  
 @import url("../fonts/SourceSansPro-Bold.ttf");  
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body,
-input,
-textarea {
-  font-family: "SourceSansPro-Black", "SourceSansPro-Black";
-}
-.con {
-  display: flex;
-  justify-content: space-between;
-  background-color: #   282931;
-}
-.titlelogo {
-  color: #fff;
-  padding: 0.6rem 1.3rem;
-}
-
-.languages {
-  padding: 0.6rem 1.3rem;
-  background-color: #5c075c;
-  border: 2px solid #5c075c;
-  font-size: 0.95rem;
-  color: #ffffff;
-  line-height: 1;
-  outline: none;
-  transition: 0.3s;
-  margin: 0;
-
-  top: 2px;
-}
-
-.languages option {
-  background-color: #ffffff;
-  color: #000;
-}
 
 .container {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   padding: 2rem;
   background-color: #fafafa;
@@ -411,9 +373,7 @@ h6 {
     margin: 1rem 0 1.5rem 0;
   }
 
-  .social-media {
-    padding: 1.5rem 0 0 0;
-  }
+
 }
 
 @media (max-width: 480px) {

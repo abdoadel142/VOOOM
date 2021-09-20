@@ -24,12 +24,12 @@ body {
 .con {
   display: flex;
   justify-content: space-between;
-  background-color: #5c075c;
+  background-color: #262626;
 }
 .languages {
   padding: 0.6rem 1.3rem;
-  background-color: #5c075c;
-  border: 2px solid #5c075c;
+  background-color: #262626;
+  border: 2px solid #333232;
   font-size: 0.95rem;
   color: #ffffff;
   line-height: 1;
@@ -53,7 +53,7 @@ body {
   padding: 0.6rem 1.3rem;
 }
 .contact-info .title {
-  color: #5c075c;
+  color: #5900ae;
 }
 
 .text {
@@ -83,7 +83,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #5c075c, #960d96);
+  background: linear-gradient(45deg, #5900ae, #5900ae);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -93,7 +93,7 @@ body {
 
 .social-icons a:hover {
   transform: scale(1.05);
-  color: #720a72;
+  color: #5900ae;
 }
 
 h6 {
