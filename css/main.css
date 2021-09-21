@@ -26,7 +26,7 @@ nav{
 nav.black{
     background: #7422ff;
     height: 80px;
-    padding: 10px 50px;
+    padding: 10px 10px;
 }
 nav .logo{
     float: left;
@@ -44,16 +44,24 @@ nav.black .logo img{
     height: 70%;
     list-style: none;
     display: inline-block;
-    padding: 20% 10%;
+    padding: 20% 35%;
     position: relative;
 }
 nav > ul{
     width: 80%;
-    margin-right:  100px;
+    margin-right:  70px;
     padding: 0;
     float: right;
     display: flex;
     justify-content: end;
+}
+nav.black ul{
+  width: 80%;
+  margin-right:  40px;
+  padding: 0;
+  float: right;
+  display: flex;
+  justify-content: end;
 }
 nav > ul > li{
     list-style: none;
@@ -507,7 +515,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .content .top .logo-details{
     color: #fff;
@@ -517,8 +525,8 @@ footer{
     display: flex;
   }
   .content .top .media-icons a{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     margin: 0 8px;
     border-radius: 50%;
     text-align: center;
@@ -543,31 +551,25 @@ footer{
     color: #4267B2;
     background: #fff;
   }
+
   .top .media-icons a:nth-child(2){
-    background: #1DA1F2;
-  }
-  .top .media-icons a:nth-child(2):hover{
-    color: #1DA1F2;
-    background: #fff;
-  }
-  .top .media-icons a:nth-child(3){
     background: #E1306C;
   }
-  .top .media-icons a:nth-child(3):hover{
+  .top .media-icons a:nth-child(2):hover{
     color: #E1306C;
     background: #fff;
   }
-  .top .media-icons a:nth-child(4){
+  .top .media-icons a:nth-child(3){
     background: #0077B5;
   }
-  .top .media-icons a:nth-child(4):hover{
+  .top .media-icons a:nth-child(3):hover{
     color: #0077B5;
     background: #fff;
   }
-  .top .media-icons a:nth-child(5){
+  .top .media-icons a:nth-child(4){
     background: #FF0000;
   }
-  .top .media-icons a:nth-child(5):hover{
+  .top .media-icons a:nth-child(4):hover{
     color: #FF0000;
     background: #fff;
   }
@@ -651,7 +653,7 @@ footer{
   footer .bottom-details .bottom_text{
     max-width: 1250px;
     margin: auto;
-    padding: 20px 40px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
   }
