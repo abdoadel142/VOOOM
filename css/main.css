@@ -262,6 +262,18 @@ section.content{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.gradient-btn a{
+  text-decoration: none;
+  margin: auto;
+  padding: 20px;
+  color: white;
+  background-color: #5900AE;
+  border-radius: 40px;
+  font-weight: 100;
+  width: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .boot{
   color: white;
   list-style: none;
@@ -443,6 +455,21 @@ margin-bottom: 20px;
     font-display: auto;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.gradient-btn-vendors a{
+  text-decoration: none;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #5900AE;
+  border-radius: 40px;
+  font-weight: 100;
+  text-align: center;
+  width: 55%;
+  font-display: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .vendors-content {
 
