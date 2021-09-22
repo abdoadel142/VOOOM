@@ -97,7 +97,8 @@ nav ul li {
     position: relative;
 }
 
-nav.black > ul > li > a{
+
+.black > ul > li > a{
     color: #fff;
     line-height: 60px;
 }
@@ -288,7 +289,7 @@ section.content{
 .services-row2 {
     display: grid;
     padding: 10px;   
-    margin: 65px;
+    margin: 4%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10rem;
 }
@@ -352,8 +353,10 @@ display: table;
     font-weight: 100;
     color: gray;
     text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .card img {
     padding: 5%;
@@ -544,8 +547,8 @@ footer{
  h4{
      color: #AFAFB6;
      font-size: small;
-     padding: auto;
-     margin: 6px 0;
+     /* padding: auto; */
+     /* margin: 6px 0; */
      list-style: none;
  }
   /* .top .media-icons a:nth-child(1){
@@ -659,7 +662,7 @@ footer{
     margin: auto;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .bottom-details .bottom_text span,
   .bottom-details .bottom_text a{

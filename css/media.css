@@ -324,6 +324,7 @@
 /*========== SEND GIFT ==========*/
 .send {
   background-color: #5900ae;
+  padding: 4%;
 }
 
 .send__title,
@@ -366,6 +367,12 @@
   overflow-x: hidden;
   height: 500px;
   width: 90%;
+
+}
+.send__content iframe{
+
+margin-top: 3%;
+
 }
 
 
@@ -494,7 +501,7 @@
   }
 
   .send__container {
-    background-color: #b882eb ;
+    background-color: #7422ff ;
     padding: 2rem;
     border-radius: 1.5rem;
   }
