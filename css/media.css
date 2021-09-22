@@ -12,16 +12,6 @@
   gap: 1.5rem;
 }
 
-.l-header {
-  /* background-color: #e0d31f; */
-
-  width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
-    background-color: var(--body-color);
-}
 
 /*========== NAV ==========*/
 .nav {

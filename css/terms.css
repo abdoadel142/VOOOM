@@ -317,15 +317,15 @@ footer .bottom-details{
   background: #313131;
 }
 footer .bottom-details .bottom_text{
-  max-width: 1250px;
+  /* max-width: 1250px; */
   margin: auto;
-  padding: 10px 20px;
+  padding: 5px 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .bottom-details .bottom_text span,
 .bottom-details .bottom_text a{
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 300;
   color: #fff;
   opacity: 0.8;
