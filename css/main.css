@@ -24,7 +24,7 @@ nav{
     
 }
 nav.black{
-    background: #7422ff;
+    background: #5900AE;
     height: 80px;
     padding: 10px 10px;
 }
@@ -240,7 +240,7 @@ section.content{
 }
 .about h2 {
     margin-top: 2%;
-    color: #7422ff;
+    color: #5900AE;
     
 }
 .about-body {
@@ -255,12 +255,18 @@ section.content{
     margin: auto;
     padding: 20px;
     color: white;
-    background-color: #7422ff;
+    background-color: #5900AE;
     border-radius: 40px;
     font-weight: 100;
     width: 20%;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.boot{
+  color: white;
+  list-style: none;
+  
+
 }
 
 /* Services */
@@ -275,7 +281,7 @@ section.content{
 }
 .services h2 {
     margin-top: 2%;
-    color: #7422ff;
+    color: #5900AE;
     
 }
 
@@ -390,7 +396,7 @@ display: table;
     margin-bottom: 10px;
     padding: 8px;
     color: white;
-    background-color: #7422ff;
+    background-color: #5900AE;
     border-radius: 40px;
     font-weight: 100;
     width: 35%;
@@ -398,7 +404,7 @@ display: table;
 
 .btn:hover {
     background-color: white;
-    color: #7422ff;
+    color: #5900AE;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
     
@@ -406,7 +412,7 @@ display: table;
 
 .vooomers h2 {
     margin-top: 2%;
-    color: #7422ff;
+    color: #5900AE;
     padding-bottom: 20px;
         font-weight: 200;
 }
@@ -419,7 +425,7 @@ display: table;
 }
 
 .gradient-label {
-background-color: #7422ff;
+background-color: #5900AE;
 width: 10%;
 height: 3px;
 margin-bottom: 20px;  
@@ -429,7 +435,7 @@ margin-bottom: 20px;
     padding: 20px;
     margin-top: 20px;
     color: white;
-    background-color: #7422ff;
+    background-color: #5900AE;
     border-radius: 40px;
     font-weight: 100;
     text-align: center;
@@ -490,7 +496,7 @@ font-weight: 200;
    
 }
 .mobile-app-content{
-    color: #7422ff;
+    color: #5900AE;
     width: 65%;
     font-size: 30px;
 }

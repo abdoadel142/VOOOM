@@ -55,7 +55,7 @@ body {
   margin-left:4% ;
 }
 .contact-info .title {
-  color: #140B5C;
+  color: #5900AE;
 }
 
 .text {
@@ -85,7 +85,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #5c075c, #960d96);
+  background: linear-gradient(45deg, #5900AE, #6a09c4);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -95,7 +95,7 @@ body {
 
 .social-icons a:hover {
   transform: scale(1.05);
-  color: #720a72;
+  color: #5900AE;
 }
 
 h6 {
