@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="images/ID1-39.png" type="image/icon type">
-    <title>VOOOM : Deliver Anything Anywhere</title>
+    <title>فوووم : وصل اي حاجة لأي حتة</title>
     <script type="text/javascript">
 
         $(window).on('scroll', function () {
@@ -24,6 +24,17 @@
             })
         })
     </script>
+    <style>
+        .link-boxes .box .link_name::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            height: 2px;
+            width: 35px;
+            background: #262626;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +43,7 @@
             <img src="images/logo_full_white-39_bp.png" alt="logo" />
         </div>
         <div class="menu">
-            <h4>Menu</h4>
+            <h4>القائمة</h4>
         </div>
     </div>
     <nav>
@@ -41,23 +52,27 @@
 
 
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="career.html">Careers</a></li>
-            <li><a href="contactForm.html">Contact Us</a></li>
-            <li> <button class="button1" onclick="location.href='arabicIndex.html';"><img
-                        src="images/icons8-egypt-96.png" />
+            <li><a href="contactForm.html">تواصل معنا</a></li>
+            <li><a href="arabicCareer.html">الوظائف</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="arabicAbout.html">نحن</a></li>
+            <li><a href="#home">الؤئيسية</a></li>
+            <li> <button class="button1" onclick="location.href='index.html';"><img
+                        src="images/icons8-great-britain-96.png" />
                 </button></li>
+            <!-- <li><a href=""> <img src="images/icons8-great-britain-96.png" /></a></li> -->
 
         </ul>
     </nav>
 
     <section class="sec1" id="home">
         <div class="header-row">
-            <div class="text-box">
-                <div>We <span class="sub-word">Simplify</span> every day</div>
-                <div>of people's <span class="sub-word">lives</span></div>
+            <img src="images/vooom_mockup.png">
+
+            <div class="text-box" dir="rtl" style="margin-right:20%; margin-top: 0%; padding-bottom: 10%;">
+
+                <div>رؤيتنا <span class="sub-word">خلق</span> حياة</div>
+                <div> أبسط<span class="sub-word"> لعملائنا </span></div>
 
                 <div class="download">
                     <a href="https://play.google.com/store/apps/details?id=com.cloud4rain.vooomu"> <img
@@ -67,7 +82,6 @@
                 </div>
             </div>
 
-            <img src="images/vooom_mockup.png">
 
         </div>
     </section>
@@ -75,7 +89,7 @@
 
         <section class="services">
             <div class="container">
-                <h2 style="padding: 20px;">Our Services</h2>
+                <h2 style="padding: 20px;">الخدمات</h2>
 
 
 
@@ -83,45 +97,43 @@
                     <div class="card">
                         <img src="images/APP.png" height="35%" width="50%">
                         <div class="card-divider"></div>
-                        <div class="card-title">Vooom App</div>
-                        <p>You can order all you need from several places, food, desserts, stationary, grocery, etc. in
-                            one order
-                            through our delivery service only by detecting your location and everything you need will be
-                            delivered to
-                            your doorstep</p>
+                        <div class="card-title">تطبيق فوووم</div>
+                        <p dir="rtl">نهدف إلى مساعدة المشاريع على ممارسة سلسه لأعمالهم التجاريه و الوصول لعملائهم بطريقه
+                            ذكية و
+                            سريعه
+                        </p>
 
                         <div class="card-btn"
                             onclick="location.href='https://play.google.com/store/apps/details?id=com.cloud4rain.vooomu';">
-                            <div class="btn"> See More </div>
+                            <div class="btn"> شاهد أكثر </div>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="images/market.png" height="35%" width="50%">
                         <div class="card-divider"></div>
-                        <div class="card-title">Vooom Market</div>
-                        <p>Vooom market is a virtual grocery store designed to ease grocery shopping for families &
-                            individuals
-                            guaranteeing the best prices & special offers in the market to eliminate the time & money
-                            wasted on this
-                            errand.</p>
+                        <div class="card-title">ڤوووم ماركت</div>
+                        <p dir="rtl">هو متجر الكتروني للسلع الغذائية لخلق تجربة تسوق مميزة و بسيطه مع ضمان الجودة
+                        </p>
 
                         <div class="card-btn"
                             onclick="location.href='https://play.google.com/store/apps/details?id=com.cloud4rain.vooomu';">
-                            <div class="btn"> See More </div>
+                            <div class="btn"> شاهد أكثر </div>
                         </div>
                     </div>
 
                     <div class="card">
                         <img src="images/Software.png" height="35%" width="50%">
                         <div class="card-divider"></div>
-                        <div class="card-title">Software Development</div>
-                        <p>Developing systems & smart solutions to simplify doing life & business using an integrated
-                            mobile
-                            application to help connect businesses with their customers.</p>
+                        <div class="card-title">التطوير البرمجي
+                        </div>
+                        <p dir="rtl">نهدف إلى مساعدة المشاريع على ممارسة سلسه لأعمالهم التجاريه و الوصول لعملائهم بطريقه
+                            ذكية و
+                            سريعه
+                        </p>
 
                         <div class="card-btn" onclick="location.href='contactForm.html';">
-                            <div class="btn"> See More </div>
+                            <div class="btn"> شاهد أكثر </div>
                         </div>
                     </div>
 
@@ -156,23 +168,23 @@
 
     <section>
         <div class="services-row2">
-            <div class="vendors-content">
-                <div class="title">VENDORS</div>
-                <div class="gradient-label"></div>
-                <p>Businesses whom are looking for a solution that connects them with their customers wherever they are
-                    &
-                    boosting their sales without the hassle of following couriers & paying extra expenses</p>
-                <div class="gradient-btn-vendors">
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfUeU-Dntzl6TlEMBjrNBRqFvMnXTDlZmm49SKAA1JGQm8dag/viewform">
-                        Want
-                        to boost your revenues?</a>
-                </div>
-            </div>
             <div class="bg-label">
                 <img src="images/ID4223411.png" class="vendor-img">
 
             </div>
+            <div class="vendors-content" dir="rtl">
+                <div class="title">الشركاء</div>
+                <div class="gradient-label"></div>
+                <p dir="rtl">أصحاب المشاريع الصغيرة و الكبيرة الذين يسعون لزيادة أرباحهم و يبحثون عن طرق أكثر تطور و
+                    أبسط للوصول لعملاءهم
+                </p>
+                <div class="gradient-btn-vendors">
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfUeU-Dntzl6TlEMBjrNBRqFvMnXTDlZmm49SKAA1JGQm8dag/viewform">
+                        تريد ان تصبح من الشركاء ؟</a>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- End Vendors -->
@@ -204,17 +216,18 @@
                 <img src="images/map_new.png" class="vendor-img">
 
             </div>
-            <div class="vendors-content">
-                <div class="title">VOOOMERS</div>
+            <div class="vendors-content" dir="rtl">
+                <div class="title">الڤووومر</div>
                 <div class="gradient-label"></div>
-                <p>Vooomers are the heroes who help us connect businesses with their customers and simplify lives in all
-                    ways
-                    whether they were bicycle owners or motorbike owners</p>
+                <p dir="rtl">الڤووومر هو وسيلتنا لتنفيذ رؤيتنا و الوصول بأسرع طريقه لعملاءنا وتبسيط حياتهم
+
+                    الڤووومرز هم وسيلتنا لتنفيذ رؤيتنا في توفير حياة أبسط لعملائنا و توصيلهم باحتياجاتهم بأسرع طريقه
+                    ممكنه
+                </p>
                 <div class="gradient-btn-vendors">
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSckkg9NMKXrNPYoGXArkGuPkCr4SDgOcvh5MyhYm1iV9bh4Jw/viewform?vc=0&c=0&w=1&fbclid=IwAR0W7KvAjn9XfKwmRxFaeVcS8N1nPjsT7KwCL1Dk6MCDPR-YE3BgiOfniqs">
-                        Become
-                        a Vooomer</a>
+                        تريد ان تكون فووومر ؟</a>
                 </div>
             </div>
 
@@ -245,7 +258,7 @@
                 <div class="send__container bd-container bd-grid">
 
                     <div class="send__content">
-                        <h2 class="send__title">Media</h2>
+                        <h2 class="send__title" dir="rtl" style="margin-right: 10%;">الاخبار</h2>
                         <iframe
                             src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjoe.hattab.vlogs%2Fvideos%2F790160574948525%2F&show_text=false&width=380&t=0"
                             style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
@@ -451,36 +464,36 @@
 
 
     <footer>
-        <div class="content">
+        <div class="content" dir="rtl">
 
             <div class="link-boxes">
                 <ul class="box">
-                    <li class="link_name">Our Services</li>
-                    <li><a href="#services">VOOOM Application</a></li>
-                    <li><a href="#services">VOOOM Market</a></li>
-                    <li><a href="#services">Software Development</a></li>
+                    <li class="link_name">الخدمات</li>
+                    <li><a href="#services">تطبيق فوووم</a></li>
+                    <li><a href="#services">ڤوووم ماركت</a></li>
+                    <li><a href="#services">التطوير البرمجي</a></li>
                     <li><a style="color: #262626;">d</a></li>
                     <li><a style="color: #262626;">d</a></li>
 
                 </ul>
                 <ul class="box">
-                    <li class="link_name">Our Company</li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="career.html">Careers</a></li>
-                    <li><a href="terms_conditions.html">Privacy policy</a></li>
-                    <li><a href="terms_conditions.html">Terms & condition</a></li>
+                    <li class="link_name">شركتنا</li>
+                    <li><a href="arabicAbout.html">من نحن</a></li>
+                    <li><a href="arabicCareer.html">الاخبار</a></li>
+                    <li><a href="arabicCareer.html">وظائف</a></li>
+                    <li><a href="terms_conditions.html">سياسة خاصة</a></li>
+                    <li><a href="terms_conditions.html">الشروط والاحكام</a></li>
 
                 </ul>
                 <ul class="box">
-                    <li class="link_name">Contact</li>
+                    <li class="link_name">تواصل معنا</li>
                     <li><a href="mailto:info@vooomapp.com">info@vooomapp.com</a></li>
                     <h4>273 Street, Building No 5, Maadi, Cairo</h4>
                     <li><a style="color: #262626;">d</a></li>
                     <li><a style="color: #262626;">d</a></li>
                 </ul>
                 <ul class="box">
-                    <li class="link_name">Download Now</li>
+                    <li class="link_name">حمل الان</li>
                     <!-- <li><a href="#"></a></li> -->
                     <!-- <ul id="menu-get-started" class="footer-menu-list"> -->
 
@@ -517,7 +530,7 @@
         </div>
         <div class="bottom-details">
             <div class="bottom_text">
-                <span class="copyright_text">Copyright © 2021 <a href="#">VOOOM.</a>All rights reserved</span>
+                <span class="copyright_text">حقوق النشر © 2021 <a href="#"> فوووم.</a> حقوق النشر محفوظة</span>
 
             </div>
         </div>
