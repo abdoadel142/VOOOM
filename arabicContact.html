@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Careers</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="css/contactForm.css" />
 
     <link rel="icon" href="images/ID1-39.png" type="image/icon type">
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <style>
         .link-boxes .box .link_name::before {
             content: "";
@@ -19,7 +21,6 @@
             background: #262626;
         }
     </style>
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -30,8 +31,8 @@
             <li><a href="arabicIndex.html">الرئيسية</a></li>
             <li><a href="arabicAbout.html">من نحن</a></li>
             <li><a href="arabicIndex.html">الخدمات</a></li>
-            <li><a href="#">الوظائف</a></li>
-            <li><a href="arabicContact.html">تواصل معنا</a></li>
+            <li><a href="arabicCareer.html">الوظائف</a></li>
+            <li><a href="contactForm.html">تواصل معنا</a></li>
 
         </ul>
 
@@ -46,33 +47,26 @@
 
         <!-- <img src="img/shape.png" class="square" alt="" /> -->
         <div class="form">
-            <img src="images/footer_vector.png" width="100%">
-
-            <div class="contact-info" style="direction: rtl;">
-                <h3 class="title">هيا نتواصل الأن</h3>
+            <div class="contact-info" dir="rtl">
+                <h3 class="title">تواصل معنا</h3>
                 <p class="text1">
-                    تريد ان تنضم الي فريق ڤوووم؟
+                    ارسل الينا شكواك
                 </p>
                 <p class="text">
-
-                    ابعت السيره الذاتيه علي :
-                <div class="information" style="direction: ltr;">
-                    <img src="images/email.png" class="icon" alt="" />
-                    <p>hr@vooomapp.com</p>
-                </div>
+                    <!-- Our agents are available 24h to make sure that all your issues and inquiries are resolved. -->
                 </p>
-                <div class="information" style="direction: ltr;">
+                <div class="information">
                     <img src="images/location.png" class="icon" alt="" />
                     <p> 273 Street, Building No.5, Maadi, Cairo</p>
                 </div>
-                <div class="information" style="direction: ltr;">
+                <div class="information">
                     <img src="images/email.png" class="icon" alt="" />
                     <p>info@vooomapp.com</p>
                 </div>
 
                 <div class="social-media">
-                    <p>تواصل معنا الان :</p>
-                    <div class="social-icons">
+                    <p>jتابعنا علي مواقعنا :</p>
+                    <div class="social-icons" dir="rtl">
                         <a href="https://www.facebook.com/Vooom.egy/">
                             <i class="fa fa-facebook-f"></i>
                         </a>
@@ -90,10 +84,55 @@
 
             </div>
 
-            <!-- <div class="contact-form "> -->
+            <div class="contact-form" dir="rtl">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
 
+                <form action="" autocomplete="on" method="POST">
+                    <h3 class="title">تواصل معنا</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">اسم المستخدم</label>
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">البريد الالكتروني</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">الهاتف</label>
+                        <span>Phone</span>
+                    </div>
+                    <!-- <div class="box">
+              <label for="cars">City/Area:</label>
+              <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div> -->
+                    <!-- <label style="color:white">Place</label> -->
 
-            <!-- </div> -->
+                    <!-- <div class="box">
+            <select>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+              <option>Option 4</option>
+              <option>Option 5</option>
+            </select>
+          </div> -->
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">رسالتك</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="ارسل" class="btn" />
+                </form>
+            </div>
         </div>
     </div>
     <footer>
@@ -137,8 +176,8 @@
                         </a>
                     </li>
                     <!-- <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                
-                </li> -->
+            
+            </li> -->
                     <!-- </ul> -->
                     <div class="top">
 
