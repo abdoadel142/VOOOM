@@ -77,22 +77,27 @@
         <span class="circle one"></span>
         <span class="circle two"></span>
 
-        <form action="" autocomplete="on" method="POST">
+        <form autocomplete="off" id="form" method="POST">
           <h3 class="title">Contact us</h3>
           <div class="input-container">
-            <input type="text" name="name" class="input" />
+            <input type="text" name="name" class="input" id="username" />
             <label for="">Username</label>
             <span>Username</span>
+            <div class="error" id="username_error"></div>
           </div>
           <div class="input-container">
-            <input type="email" name="email" class="input" />
+            <input type="email" name="email" id="email" class="input" />
             <label for="">Email</label>
             <span>Email</span>
+            <div class="error" id="email_error"></div>
+
           </div>
           <div class="input-container">
-            <input type="tel" name="phone" class="input" />
+            <input type="tel" name="phone" id="phone" class="input" />
             <label for="">Phone</label>
             <span>Phone</span>
+            <div class="error" id="phone_error"></div>
+
           </div>
           <!-- <div class="box">
               <label for="cars">City/Area:</label>
@@ -115,9 +120,11 @@
             </select>
           </div> -->
           <div class="input-container textarea">
-            <textarea name="message" class="input"></textarea>
+            <textarea name="message" class="input" id="message"></textarea>
             <label for="">Message</label>
             <span>Message</span>
+            <div class="error" id="message_error"></div>
+
           </div>
           <input type="submit" value="Send" class="btn" />
         </form>
